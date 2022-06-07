@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 10px;
+  }
+  
+  .brand {
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  .brand-header {
+    border-bottom: 3px solid black;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+  }
+  
+  .story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+  }
+  
+  .quarter {
+    width: 25%;
+  }
+  
+  .half {
+    width: 50%;
+  }
+  
+  .three-quarter {
+    width: 75%;
+  }
+  
+  .article-img {
+    width: 100%;
+  }
+  
+  .article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .other-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .site-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  
+    /* this is the same as: flex: 1; */
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto; */
+  }
+  
+  .section-link {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+  }
+  
+  .section-link:hover {
+    text-decoration: underline;
+  }
+  
+  .site-section-local {
+    background-color: #55efc4;
+  }
+  
+  .site-section-tech {
+    background-color: #81ecec;
+  }
+  
+  .site-section-opinion {
+    background-color: #74b9ff;
+  }
+  
+  .site-section-sports {
+    background-color: #a29bfe;
+  }
+  
+  .site-section-politics {
+    background-color: #ffeaa7;
+  }
+  
+/* .main-brand {
+    font-size: 80px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Pinyon Script', cursive;
+    font-weight: thin;
+    color: #333;
+    margin: 60px 0;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.half {
+    width: 50%
+}
+
+.three-quarter {
+    width: 75%
+}
+
+.story-title {
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story-image {
+    width: 100%;
+}
+
+.story-text {
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-item:nth-child(1) { background-color:rgb(227, 240, 109) ;}
+.nav-item:nth-child(2) { background-color:rgb(248, 136, 136) ;}
+.nav-item:nth-child(3) { background-color:rgb(131, 245, 141) ;}
+.nav-item:nth-child(4) { background-color:rgb(116, 79, 252) ;}
+.nav-item:nth-child(5) { background-color:rgb(78, 186, 248) ;} */
